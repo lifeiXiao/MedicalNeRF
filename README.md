@@ -6,7 +6,7 @@ NeRF Dataset of Highly Reflective Medical Surgical Instruments
 If you find this work helpful, please consider to cite:
 ```
 @misc{MedicalNerf,
-    title={MedicalNeRF: NeRF Dataset of Highly Reflective Medical Surgical Instruments},
+    title={MedicalNeRF: NeRF Datasets of Highly Reflective Medical Surgical Instruments},
     author={Lifei, Xiao},
     year={2024},
     month = Sept,
