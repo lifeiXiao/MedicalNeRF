@@ -1,6 +1,6 @@
 # MedicalNeRF
 ## Introduction
-NeRF Dataset of Highly Reflective Medical Surgical Instruments
+NeRF Datasets of Highly Reflective Medical Surgical Instruments
 
 ## Citation
 If you find this work helpful, please consider to cite:
