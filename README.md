@@ -2,6 +2,8 @@
 ## Introduction
 ### NeRF Datasets of Highly Reflective Medical Surgical Instruments.
 
+Currently, we provide two formats of datasets for use: NeRF format and Instant-NGP format. The two datasets differ slightly in the camera pose files, ` transforms_train.json ` and ` transforms_test.json `, as Instant-NGP requires an additional parameter,` AABB_Scale`, for training. Aside from this, the training and testing images in both datasets remain identical.
+
 #### Example datasets：
 ![image](https://github.com/user-attachments/assets/27ad64f5-709e-4fb0-bec1-febadd0e9b4f)
 
