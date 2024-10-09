@@ -7,7 +7,7 @@ Currently, we provide two formats of datasets for use: NeRF format and Instant-N
 #### Example datasets：
 ![image](https://github.com/user-attachments/assets/27ad64f5-709e-4fb0-bec1-febadd0e9b4f)
 
-MedicalNeRF aims to provide a NeRF dataset focused on medical surgical instruments. 
+            MedicalNeRF aims to provide a NeRF dataset focused on medical surgical instruments. 
             This is an often-overlooked area in previous research, despite some studies utilizing methods like ray reflection 
             equations to optimize NeRF's performance on reflective surfaces. However, there has been minimal focus on the highly 
             reflective specific applications within medical devices. Our research highlights include a series of NeRF datasets 
