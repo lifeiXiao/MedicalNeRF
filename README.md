@@ -19,6 +19,20 @@ Currently, we provide two formats of datasets for use: NeRF format and Instant-N
             facilitate further advancements in these studies. 
 
 ## Citation
+
+Our code is based on the following code:
+```
+@misc{lin2020nerfpytorch,
+  title={NeRF-pytorch},
+  author={Yen-Chen, Lin},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished={\url{https://github.com/yenchenlin/nerf-pytorch/}},
+  year={2020}
+}
+```
+
+
 If you find this work helpful, please consider to cite:
 ```
 @misc{MedicalNerf,
