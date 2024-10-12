@@ -18,6 +18,53 @@ Currently, we provide two formats of datasets for use: NeRF format and Instant-N
             high-reflectivity medical instruments presents even greater challenges. We hope that the MedicalNeRF dataset will
             facilitate further advancements in these studies. 
 
+## Data Directory structure
+
+```
+├── configs                                                                                                       
+│   ├── ...                                                                                     
+│                                                                                               
+├── data                                                                                                                                                                                                       
+│   ├── nerf_llff_data                                                                                                  
+│   │   └── dataset                                                                                                                             
+│   │   └── dataset  # downloaded llff dataset                                                                                  
+│   │   └── dataset   # downloaded llff dataset
+|   |   └── ...
+|   ├── nerf_synthetic
+|   |   └── O-Ring-Forcep
+|   |       └──train
+|   |          └──100
+|   |             └──train/images.png
+|   |             └──transforms_train.josn
+|   |          └──50
+|   |          └──20
+|   |          └──6
+|   |       └──test
+|   |       └──val
+|   |   └── dataset    # downloaded synthetic dataset
+|   |   └── ...
+```
+
+---
+
+To train NeRF on different datasets: 
+
+```
+python run_nerf.py --config configs/{DATASET}.txt --train_subset 100 --test_subset 50 --val_subset 50
+```
+
+replace `{DATASET}` with `O-Ring-Forcep` | `XXX` | `XXX` | `XXX` | `XXX` | etc.
+
+---
+
+To test NeRF trained on different datasets: 
+
+```
+python run_nerf.py --config configs/{DATASET}.txt --test_subset 50 --render_only
+```
+
+replace `{DATASET}` with `O-Ring-Forcep` | `XXX` | `XXX` | `XXX` | `XXX` | etc.
+
 ## Citation
 
 Our code is based on the following code:
